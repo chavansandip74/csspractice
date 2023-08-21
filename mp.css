@@ -1,0 +1,547 @@
+.container{
+    background-color: brown;
+    width: 400px;
+    float: left;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin: 50px;
+    margin-right: 70px;
+    margin: 80px 30px 50px 10px;
+    margin: 30px 50px 10px  ;
+   clear: right;
+   clear: left;
+   border: 12px solid black;
+   box-sizing: content-box;
+   outline: 30px;
+   border-radius: 23%;
+   outline: auto;
+}
+.box{
+    background-color: rgb(2, 2, 2,0.8);
+    
+    width: 40%;
+    float:left;
+    height: 400px;
+    padding: 20px;
+    padding:90px 50px 10px 60px;
+    clear: both;
+}
+/* text */
+.txt{
+    color: red;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration-color: blue;
+    text-decoration-style: dashed;
+    text-decoration-style: double;
+    text-align: center;
+    text-align: justify;
+    text-align-last: center;
+    text-indent: 100px;
+    line-height: 3.0;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+/* font */
+.fontp{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: fantasy;
+    font: 1em sans-serif;
+}
+/* shadow */
+.shadow{
+    font-size: 40px;
+    text-align: center ;
+    text-shadow: 2px 5px 4px blue;
+}
+.box_shadow{
+    background-color: black;
+    float: left;
+    width: 800px;
+    height: 400px;
+    padding: 10px;
+    margin: 80px;
+    box-shadow: 20px 20px 6px red;
+    box-shadow: 50px 50px 50px 50px blue;
+    box-shadow: 50px 50px 50px 50px green inset;
+    
+
+}
+.overflow{
+    background-color: blue;
+    height: 500px;
+    width: 900px;
+    float: left;
+ 
+  
+    overflow-y: hidden;
+    overflow-y: scroll;
+ 
+}
+*{
+    margin:0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-color: red;
+    height: 688px;
+    float: left;
+    background-image: url("./../gym/img/gym.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blur{
+    height: 100%;
+    width: 100%;
+    float: left;
+    background-color:hsla(0, 90%, 50%, 0.3);
+    display: flex;
+}
+.box{
+    width: 33.33%;
+    height: 100%;
+   
+    float: left;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+.box_text{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 2px 2px red;
+}
+.mobile{
+    height: 80%;
+    width: 80%;
+    border: 2px solid black;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px white;
+    background-image: url("./../gym/img/gym.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.battry{
+    color: white;
+    float: right;
+    font-size: 20px;
+    margin: 5px;
+}
+.area1{
+    height: auto;
+    width: 100%;
+    float: left;
+}
+.time{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 15px;
+}
+.ser{
+    height: 25px;
+    border-radius: 20px;
+    border: 2px solid red;
+    text-align: center;
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 20px;
+}
+.menu{
+    width: 80%;
+    height: 300 px;
+    float: left;
+    padding: 50px 50px 0px 20px;
+
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    background-color: orange;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 0px 10px 0px white;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.gradiant{
+       height: 300px;
+       width: 300px;
+       float: left;
+       background-color: red;
+       border-radius: 25%;
+
+       background-image: linear-gradient(red,blue,yellow);
+       background-image: linear-gradient(to left,red,black,green);
+       background-image: linear-gradient(to right,red,black,green);
+       background-image: linear-gradient(to bottom,red,black,green);
+       background-image: linear-gradient(to top,red,black,green);
+       background-image: linear-gradient(to bottom left,red,black,green);
+       background-image: linear-gradient(to left,red 40%,black,green);
+       background-image: repeating-linear-gradient(red,black);
+       background-image: linear-gradient(rgb(),hsl());
+
+       background-image: radial-gradient(red,black,green);
+       background-image: radial-gradient(closest-side at 100px 100px,red,black,green);
+       background-image: radial-gradient(closest-corner at 100px 100px,red,black,green);
+    
+    
+}
+.display li{
+ /* display: none;
+ display: inline-block;
+ display: block; */
+ visibility: visible;
+ visibility: hidden;
+}
+.boxd{
+    background-color: red;
+    width: 300px;
+    height:300px;
+    float: left;
+}
+.tabled{
+    display: table;
+    width: 100%;
+    
+    border: 1px solid black;
+}
+.tr{
+    display: table-row;
+    margin: 10px;
+}
+.col{
+    display: table-cell;
+    border: 2px solid black;
+  
+}
+.curser{
+    height: 200px;
+    width: 200px;
+    float: left;
+    background-color: red;
+    cursor: pointer;
+    cursor: move;
+}
+.position{
+    height: 200px;
+    width: 100%;
+    background-color: red;
+    /* position: absolute; */
+}
+
+.position1{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    /* position: absolute;
+    right: 208px;
+    top: 10px; */
+}
+
+.cardp{
+    height: 600px;
+    width: 400px;
+    background-color: red;
+}
+.cbp{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 25%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.pof{
+    background-color: rgb(0, 102, 255);
+    width: 400px;
+    height: 300px;
+    float: left;
+    position: fixed;
+
+
+    right: 50px;
+    bottom: 80px;
+}
+.pof1{
+    background-image: linear-gradient(red,blue,orange);
+    width: 100%;
+    height: 1000px;
+    float: left;
+}
+.posk{
+    text-align: center;
+    width: 100%;
+    height: 1000px;
+    float: left;
+    background-image: linear-gradient(red,blue,orange);
+}
+.pnav{
+    background-color: orange;
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+.pmenu{
+    background-color: rgb(0, 255, 76);
+    width: 100%;
+    height: 100px;
+    float: left;
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+}
+.zindex1{
+    background-color: rgb(0, 255, 76);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+ 
+}
+.zindex{
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 9999;
+}
+.zindex2{
+    background-color: rgb(111, 0, 255);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: 9999;
+}
+.th{
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 200px;
+   float: left;
+   transition-property: width;
+   transition-duration: 10s;
+   transition-delay: 3s;
+
+}
+.th:hover{
+    background-color: rgb(72, 255, 0);
+    width: 1000px;
+    height: 200px;
+ 
+
+}
+.th1{
+    background-color: rgb(0, 81, 255);
+    width: 200px;
+    height: 200px;
+   float: left;
+   transition-property: hight;
+   transition-duration: 10s;
+   transition-delay: 3s;
+ 
+
+}
+.th1:hover{
+    background-color: rgb(255, 0, 76);
+   
+    height: 700px;
+ 
+
+}
+.trf{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(black ,blue,red);
+
+
+}
+.trf:hover{
+    transform: rotate(30deg);
+}
+.trftr{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(black ,blue,red);
+margin-top: 30px;
+
+}
+.trftr:hover{
+    transform: translate(20px,50px);
+    transform: translatey(80px);
+    transform: translatex(100px);
+}
+.trfsc{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(black ,blue,red);
+    margin-top: 30px;
+
+}
+.trfsc:hover{
+    transform:scale(1.0,4);
+    transform:scalex(1.0,4);
+    transform:scalex(5.0);
+}
+.boxsc{
+  height: 300px;
+  width: 300px;
+  margin-top: 20px;
+  border: 2px solid black;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+.boxsc img:hover{
+  transform: scale(2.2,2.2);
+}
+.scr{
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    border: 2px solid black;
+    margin-bottom: 100px;
+    background-color: orange;
+  }
+  .scr:hover{
+    transform: skew(30deg,30deg);
+    transform: skewy(80deg);
+    transform: skewx(120deg);
+  }
+  .anime{
+    height: 400px;
+    width: 400px;
+    margin-top: 20px;
+    border: 2px solid black;
+    margin-bottom: 100px;
+    background-color: orange;
+    animation-name: demo;
+    animation-duration: 8s;
+  }
+  @keyframes demo{
+    from{background-color:red}
+    to{background-color:blue}
+  }
+  .anibox{
+    height: 400px;
+    width: 400px;
+    margin-top: 100px;
+    border: 2px solid black;
+    margin-bottom: 100px;
+    background-color: rgb(0, 255, 106);
+    animation-name: demo1;
+    animation-duration: 10s;
+  }
+  @keyframes demo1{
+    0%{margin-left: 100px;background-color: blue;}
+    10%{margin-left: 120px;background-color: rgb(26, 26, 31);}
+    20%{margin-left: 140px;background-color: rgb(255, 136, 0);}
+    30%{margin-left: 260px;background-color: blue;}
+    40%{margin-left: 380px;background-color: blue;}
+    50%{margin-left: 400px;background-color: rgb(214, 214, 230);}
+    60%{margin-left: 1900px;background-color: rgb(136, 255, 0);}
+    70%{margin-left: 600px;background-color: rgb(200, 255, 0);}
+    80%{margin-left: 1400px;background-color: rgb(255, 0, 0);}
+    90%{margin-left: 100px;background-color: rgb(255, 72, 0);}
+    100%{margin-left: 0px;background-color: rgb(0, 225, 255);}
+    
+  }
+  .aniboll{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 100%;
+    margin-bottom: 100px;
+    background-color: rgb(0, 255, 106);
+    animation-name: demo2;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-direction: alternate-reverse;
+  }
+  @keyframes demo2{
+   0%{top: 0px;left: 0px;}
+   10%{top:550px;left: 0px;}
+   15%{top:550px;left: 15%;}
+   25%{top:0px;left: 15%;}
+   35%{top:0px;left: 30%;}
+   40%{top:500px;left: 30%;}
+   45%{top:500px;left: 45%;}
+   55%{top:0px;left: 45%;}
+   60%{top:0px;left: 60%;}
+   70%{top:500px;left: 60%;}
+   75%{top:500px;left: 75%;}
+   85%{top:0px;left: 75%;}
+   90%{top:0px;left: 90%;}
+   95%{top:500px;left: 90%;}
+   100%{top:500px;left: 98%;}
+  }
+  .hoverb{
+    height: 100px;
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid black;
+   
+    margin-bottom: 100px;
+    background-color: rgb(0, 255, 106);
+  }
+  .hoverb:hover{
+    background-color: orange;
+  }
+  .pr{
+    display: none;
+  }
+  .pr:hover{
+   
+text-align: center;
+  }
+  .hoverb:hover .pr{
+    display: inline-block;
+  }
+  .prc:first-child{
+    background-color: gold;
+  }
+  .prc:last-child{
+    background-color: gold;
+  }
+  .prc:nth-child(3){
+    color: red;
+  }
+  .prc:nth-last-child(2){
+    color: green;
+  }
+  .prc::first-letter{
+    color: brown;
+  }
+  .prc::first-line{
+    color: orangered;
+  }
+  .prc::after{
+    content: "after use";
+  }
+  .prc::before{
+    content: "brfore use";
+  }
+  *::selection{
+    background-color: chartreuse;
+  }

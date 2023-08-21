@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js event</title>
+    <style>
+        #btn{
+            padding: 12px;
+            color: aqua;
+        background-color: black;
+    border: 2px solid red;        }
+    </style>
+</head>
+<body>
+    <!-- browser event
+    1.click
+    2.contextmenu
+    3.mouseover/mouseout
+    4.mousedown/mouseup
+    5.mousemove
+    6.focus
+    7.submit
+    8.domcontainloded -->
+    <div class="container">
+        <h1>this is hedding</h1>
+        <p id="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe quod deserunt autem qui nobis in, modi eos obcaecati, nesciunt quae soluta. Ad adipisci, aliquid molestiae corrupti excepturi ratione unde. Voluptate sint libero nostrum laboriosam incidunt, et itaque labore consectetur quod ex non velit eos possimus porro provident esse pariatur nulla!</p>
+     
+    </div>
+    <button id="btn" onclick="hide()">show</button>
+</body>
+<script>
+     let para=document.getElementById("para");
+     para.addEventListener("mouseover",function run(){
+        alert("maose inside")
+     })
+     para.addEventListener("mouseout",function run(){
+        alert("maose outside")
+     })
+    function hide(){
+        let btn=document.getElementById("btn");
+        let para=document.getElementById("para");
+        if(para.style.display !="none"){
+            
+            para.style.display="none";
+        }
+        else{
+            para.style.display="block";
+        }
+    }
+
+</script>
+</html>

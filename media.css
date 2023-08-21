@@ -1,0 +1,45 @@
+.box{
+    height: 500px;
+    width: 9%;
+    background-color: red;
+    float: left;
+    border: 2px solid black;
+}
+
+@media(max-width:600px) {
+    .box{
+        height: 500px;
+        width: 100%;
+        background-color: rgb(83, 238, 36);
+        float: left;
+    }
+
+}
+    
+@media(min-width: 601px){
+    .box{
+        height: 500px;
+        width: 33%;
+        background-color: rgb(38, 0, 255);
+        float: left;
+    }
+
+ }
+@media(min-width: 927px){
+    .box{
+        height: 500px;
+        width: 25%;
+        background-color: rgb(231, 22, 196);
+        float: left;
+    }
+
+ }
+@media(min-width: 1200px){
+    .box{
+        height: 500px;
+        width: 12%;
+        background-color: rgba(194, 233, 23, 0.726);
+        float: left;
+    }
+
+ }

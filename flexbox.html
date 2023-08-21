@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        .contener {
+            height: 344px;
+            width: 100%;
+            display: flex;
+            border: 2px solid black; /* flex-direction   */
+             /*flex-flow: row wrap;
+       justify-content: center;
+       justify-content: space-between;
+       justify-content: space-around;
+       align-items: center;
+       align-items: flex-start;
+       align-items: flex-end;
+             */
+        }
+
+        .item {
+            background-color: blue;
+            border: 2px solid red;
+            margin: 10px;
+            padding: 12px;
+            width: 200px;
+             height: 100px;
+        }
+        #item1{
+            order: 3;
+            /* flex-grow: 33; */
+         
+        }
+        #item2{
+            order: 1;
+            /* flex-shrink: 4; */
+            flex-basis: 22;
+        }
+        #item3{
+            order: 5;
+            /* flex-shrink: 2; */
+        }
+        #item4{
+            flex:2 3 345px;
+            /* order: 6; */
+        }
+        #item5{
+            order: 66;
+            /* flex-shrink: 22; */
+            align-self: center;
+            align-self: end;
+            
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div class="contener">
+        <div class="item" id="item1">no 1</div>
+        <div class="item" id="item2">no2</div>
+        <div class="item" id="item3">no3</div>
+        <div class="item" id="item4">no4</div>
+        <div class="item" id="item5">no5</div>
+    </div>
+</body>
+
+</html>

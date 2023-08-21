@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.backg{
+    background-image: url("./../img/pexels-mati-mango-6330644.jpg");
+    height: 700px;
+    width: 100%;
+    background-size:100% 100%;
+
+}
+.menu{
+    height: 100px;
+    width: 100%;
+    float: left;
+    background-color: hsla(220, 100%, 20%, 0.5);
+}
+.logo{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+.mop{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.msc{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.logo h1{
+    text-align: center;
+    font-size: 60px;
+    color: orange;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+.opu{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.opu li{
+    list-style-type: none;
+    display: inline-block;
+   
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.opu li a{
+    color: white;
+    text-decoration: none;
+}
+.msc input{
+    height: 40px;
+    width: 200px;
+    text-align-last: center;
+    margin-top: 30px;
+    border: 2px solid orange;
+    background-color: transparent;
+}
+.msc button{
+    height: 40px;
+    width: 100px;
+    color: orangered;
+    background-color: burlywood;
+    border: 2px solid orange;
+    margin-left: -10px;
+}
+.msc input:focus{
+    outline: none;
+}
+.area{
+    height: auto;
+    width: 100%;
+    float: left;
+
+}
+.contant{
+    height: 100%;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.contant h1{
+    font-size: 80px;
+    color: white;
+    text-transform: capitalize;
+}
+.contant span{
+    color: orangered;
+    text-shadow: 2px 2px black;
+}
+.contant p{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 1.5;
+}
+.contant button{
+    color: rgba(17, 6, 2, 0.959);
+    border:none;
+    border-radius: 20px;
+    background-color: orange;
+    height: 50px;
+    width: 200px;
+    font-weight: bolder;
+    align-items: center;
+    margin-top: 20px;
+}
+.log{
+    height: 500px;
+    width: 50%;
+    float: left;
+
+}
+.logar{
+    height: 400px;
+    width: 50%;
+    float: left;
+    background-color: black;
+    margin-left: 20%;
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px white;
+    padding: 15px;
+
+}
+.logar h1{
+    background-color: aliceblue;
+    color: rgb(243, 169, 9);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.logar input{
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 2px solid orange;
+    background-color: transparent;
+    color: white;
+    margin-top: 10px;
+}
+.logar input:focus{
+    outline: none;
+}
+.logar button{
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.logar h2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+.logar span{
+    color: orangered;
+}
+.logar h3{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}

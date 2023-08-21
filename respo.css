@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sla{
+    height: 450px;
+    width: 100%;
+    float: left;
+    background-image: url("./../img/pexels-ian-beckley-2440021.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+}
+.can{
+    height: 100%;
+    width: 50%;
+    background-color:hsla(240, 100%, 10%, 0.5);
+    float: left;
+    text-align: center;
+
+}
+.can h1{
+    font-size: 60px;
+    color: white;
+    margin-top: 20px;
+   
+}
+.can p{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+.can button{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: orange;
+}
+.abb{
+    width: 100%;
+    height: 500px;   
+    float: left;
+
+}
+.abs{
+    height: 100%;
+    width: 40%;
+    float: left;
+
+}
+.abml{
+    margin-left: 10%;
+
+}
+.abmr{
+    margin-right: 10%;
+}
+.abml h1{
+    font-size: 50px;
+    color: rgb(221, 149, 16);
+    margin-top: 30px;
+    text-align: center;
+}
+.abml p{
+    font-size: 20px;
+    color: rgba(8, 8, 8, 0.945);
+    text-align: justify;
+    font-weight: bold;
+    padding: 10px;
+}
+.abmr img{
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    box-shadow: 0px 0px 20px  rgb(250, 11, 11);
+
+}
+
+@media(max-width:667px) {
+ .sla{
+        height: 350px;
+    }
+.can{
+        width: 100%;
+}
+.can h1{
+    font-size: 30px;
+}
+.can p{
+    font-size: 15px;
+}
+  
+.can button{
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+}
+.abs{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.abml h1{
+    font-size: 30px;
+}
+.abml p{
+    font-size: 20px;
+}
+.abmr img{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%
+    box-shadow:none;
+}
+}
+@media(min-width:668px ){
+    .con  h1{
+    font-size: 30px;
+    }
+    .can p{
+        font-size: 20px;
+    }
+}

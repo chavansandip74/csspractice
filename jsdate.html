@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date in js</title>
+</head>
+
+<body>
+    <div class="container">
+        current time is <span id="time"></span>
+    </div>
+</body>
+<script>
+    // console.log("date in js")
+    // let now=new Date(0);
+    // console.log(now);
+    // let nd=new Date("2023-04-06");
+    // console.log(nd);
+     let newDate=new Date(2002,3,4,44,32);
+    // console.log(newDate)
+    // let yr=newDate.getFullYear();
+    // console.log("the year is=",yr);
+    // let mo=newDate.getMonth();
+    // console.log("the month is=",mo);
+    newDate.setDate(22);
+     console.log(newDate)
+    function updateTime() {
+        time.innerHTML = new Date();
+    }
+    updateTime();
+</script>
+
+</html>
